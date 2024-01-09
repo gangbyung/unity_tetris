@@ -1,0 +1,10 @@
+[user]
+	email = a01066420995@gmail.com
+	name = gangbyung
+[safe]
+	directory = D:/DY Class/1학년/.메이크/a-star
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
